@@ -1,0 +1,11 @@
+﻿<reactiveUi:ReactiveUserControl x:TypeArguments="demoRxUi:IntroViewModel" x:Class="DemoRxUi.IntroView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:reactiveUi="http://reactiveui.net" 
+        xmlns:demoRxUi="clr-namespace:DemoRxUi"
+        Background="DarkOrange">
+    <Grid>
+        <reactiveUi:RoutedViewHost x:Name="NavViews"  Width="Auto"/>
+    </Grid>
+</reactiveUi:ReactiveUserControl>
+

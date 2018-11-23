@@ -1,0 +1,11 @@
+﻿<reactiveUi:ReactiveUserControl x:TypeArguments="demoRxUi:View1Model" x:Class="DemoRxUi.View1"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
+        xmlns:reactiveUi="http://reactiveui.net" 
+        xmlns:demoRxUi="clr-namespace:DemoRxUi"
+        Background="Aqua">
+    <Grid>
+        <Button Content="Go Forward" Width="100" Height="20" x:Name="View1Button" ></Button>
+    </Grid>
+</reactiveUi:ReactiveUserControl>
+
